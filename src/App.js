@@ -58,11 +58,11 @@ function Hero() {
                 </span>
               </div>
               <div className="is-size-5 publication-authors">
-                <span className="author-block"><sup>1</sup>EPFL</span>
+                <span className="author-block"><sup>1</sup>EPFL <sup>*</sup>co-first <sup>**</sup>co-senior</span>
               </div>
               <div className="publication-links">
                 <span className="link-block">
-                  <a href="https://arxiv.org/pdf/2011.12948" className="external-link button is-normal is-rounded is-dark">
+                  <a href="." className="external-link button is-normal is-rounded is-dark">
                     <span className="icon">
                       <i className="fas fa-file-pdf"></i>
                     </span>
@@ -78,7 +78,7 @@ function Hero() {
                   </a>
                 </span>
                 <span className="link-block">
-                  <a href="https://huggingface.co/datasets/lmms-lab/LLaVA-Video-178K" className="external-link button is-normal is-rounded is-dark">
+                  <a href="." className="external-link button is-normal is-rounded is-dark">
                     <span className="icon">
                       <i className="far fa-images"></i>
                     </span>
