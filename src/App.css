@@ -395,9 +395,85 @@ img[src*="overview.png"] {
     align-items: center;
   }
   
+  .result-image {
+    width: 100% !important;
+    min-width: unset !important;
+    max-width: 100% !important;
+    margin: 0 auto;
+  }
+
+  img[src*="overview.png"] {
+    width: 100% !important;
+    min-width: unset !important;
+    max-width: 100% !important;
+  }
+  
   .figure-caption {
-    text-align: center;
-    width: 500px;
+    text-align: left;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .publication-title {
+    font-size: 1.5rem !important;
+    padding: 0 15px;
+  }
+
+  .publication-authors {
+    padding: 0 10px;
+  }
+
+  .author-block {
+    display: inline-block;
+    margin: 2px 5px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .section {
+    padding: 2rem 0.5rem;
+  }
+
+  .hero-body {
+    padding: 2rem 0.5rem;
+  }
+
+  .results-container {
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  #results .container {
+    padding: 0 10px;
+  }
+}
+
+/* Add specific rules for very small screens */
+@media screen and (max-width: 480px) {
+  .publication-title {
+    font-size: 1.25rem !important;
+  }
+
+  .is-size-5 {
+    font-size: 0.9rem !important;
+  }
+
+  .publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .link-block {
+    margin: 2px;
+  }
+
+  .button.is-normal {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
   }
 }
 
