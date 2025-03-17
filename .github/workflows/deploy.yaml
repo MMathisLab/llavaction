@@ -21,8 +21,20 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: List src directory
+      run: ls -la src/
+
     - name: Build the React app
       run: npm run build
+
+    - name: Check build output
+      run: |
+        echo "Checking build directory contents:"
+        ls -la build/
+        echo "Checking build/static directory:"
+        ls -la build/static || echo "No static directory"
+        echo "Checking index.html:"
+        cat build/index.html
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
