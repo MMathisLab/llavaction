@@ -355,6 +355,13 @@ img[src*="fig1.png"] {
   max-width: none !important;
 }
 
+img[src*="overview.png"] {
+  width: 800px !important;
+  min-width: 800px !important;
+  max-width: 800px !important;
+  height: auto !important;
+}
+
 /* Override container width for results section */
 #results .container {
   max-width: 1200px;
