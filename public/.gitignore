@@ -1,7 +1,0 @@
-.DS_store
-.idea
-node_modules
-# .gitignore
-/build
-/node_modules
-/public/build
