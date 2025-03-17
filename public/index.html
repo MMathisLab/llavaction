@@ -8,6 +8,9 @@
     
     <title>LLaVAction: Video Action Recognition</title>
 
+    <!-- React will replace this with the bundled version during build -->
+    <script defer src="%PUBLIC_URL%/static/js/bundle.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
     <link rel="stylesheet" href="%PUBLIC_URL%/static/css/bulma.min.css">
     <link rel="stylesheet" href="%PUBLIC_URL%/static/css/bulma-carousel.min.css">
@@ -25,6 +28,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- This is where your React app will be mounted -->
     <footer class="footer">
       <div class="container">
         <div class="content has-text-centered">
@@ -34,5 +38,6 @@
         </div>
       </div>
     </footer>
+    <!-- React app bundle will be automatically injected here during build -->
   </body>
 </html> 
