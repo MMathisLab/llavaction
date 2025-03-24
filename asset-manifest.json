@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://mmathislab.github.io/llavaction/static/css/main.f963f1ed.css",
-    "main.js": "https://mmathislab.github.io/llavaction/static/js/main.96fcc392.js",
+    "main.js": "https://mmathislab.github.io/llavaction/static/js/main.51062abd.js",
     "index.html": "https://mmathislab.github.io/llavaction/index.html",
     "main.f963f1ed.css.map": "https://mmathislab.github.io/llavaction/static/css/main.f963f1ed.css.map",
-    "main.96fcc392.js.map": "https://mmathislab.github.io/llavaction/static/js/main.96fcc392.js.map"
+    "main.51062abd.js.map": "https://mmathislab.github.io/llavaction/static/js/main.51062abd.js.map"
   },
   "entrypoints": [
     "static/css/main.f963f1ed.css",
-    "static/js/main.96fcc392.js"
+    "static/js/main.51062abd.js"
   ]
 }
