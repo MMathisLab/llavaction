@@ -78,7 +78,7 @@ function Hero() {
                   </a>
                 </span>
                 <span className="link-block">
-                  <a href="." className="external-link button is-normal is-rounded is-dark">
+                  <a href="https://huggingface.co/MLAdaptiveIntelligence/LLaVAction-7B" className="external-link button is-normal is-rounded is-dark">
                     <span className="icon">
                       <i className="far fa-images"></i>
                     </span>
@@ -103,7 +103,7 @@ function Abstract() {
             <h2 className="title is-3">Abstract</h2>
             <div className="content has-text-justified">             
               <p>
-              Understanding human behavior requires measuring behavioral actions. Due to its complexity, 
+              Understanding human behavior requires measuring actions. Due to its complexity, 
             behavior is best mapped onto a rich, semantic structure such as language. The recent development
             of multi-modal large language models (MLLMs) is a promising candidate for a wide range of action
             understanding tasks. In this work, we focus on evaluating and then improving MLLMs to perform action
