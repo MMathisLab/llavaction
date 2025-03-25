@@ -62,7 +62,7 @@ function Hero() {
               </div>
               <div className="publication-links">
                 <span className="link-block">
-                  <a href="." className="external-link button is-normal is-rounded is-dark">
+                  <a href="http://arxiv.org/abs/2503.18712" className="external-link button is-normal is-rounded is-dark">
                     <span className="icon">
                       <i className="fas fa-file-pdf"></i>
                     </span>
