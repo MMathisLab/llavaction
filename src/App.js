@@ -272,10 +272,10 @@ function App() {
         <div className="container is-max-desktop content">
           <h2 className="title">BibTeX</h2>
           <pre><code>{`@article{YeQi2025llavaction,
-  title={LLaVAction: evaluating and training multi-modal large language models for action recognition},
-  author={Ye, Shaokai and Qi, Haozhe and Mathis, Alexander and Mathis, Mackenzie W.},
-  journal={arXiv preprint},
-  year={2025}
+  title={LLaVAction: evaluating and training multi-modal large language models for action understanding},
+  author={Qi, Haozhe and Ye, Shaokai and Mathis, Alexander and Mathis, Mackenzie W.},
+  journal={ICLR},
+  year={2026}
 }`}</code></pre>
         </div>
       </section>
