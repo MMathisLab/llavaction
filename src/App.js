@@ -41,7 +41,7 @@ function Hero() {
           <div className="columns is-centered">
             <div className="column has-text-centered">
               <h1 className="title is-1 publication-title">
-                LLaVAction: evaluating and training multi-modal large language models for action recognition
+                LLaVAction: evaluating and training multi-modal large language models for action understanding
               </h1>
               <div className="is-size-5 publication-authors">
                 <span className="author-block">
@@ -54,7 +54,7 @@ function Hero() {
                   <a href="https://mathislab.org/">Alexander Mathis**</a><sup>1</sup>
                 </span>
                 <span className="author-block">
-                  <a href="https://www.mackenziemathislab.org/">Mackenzie Mathis**</a><sup>1</sup>
+                  <a href="https://www.mackenziemathislab.org/">Mackenzie Weygandt Mathis**</a><sup>1</sup>
                 </span>
               </div>
               <div className="is-size-5 publication-authors">
@@ -103,17 +103,8 @@ function Abstract() {
             <h2 className="title is-3">Abstract</h2>
             <div className="content has-text-justified">             
               <p>
-              Understanding human behavior requires measuring actions. Due to its complexity, 
-            behavior is best mapped onto a rich, semantic structure such as language. The recent development
-            of multi-modal large language models (MLLMs) is a promising candidate for a wide range of action
-            understanding tasks. In this work, we focus on evaluating and then improving MLLMs to perform action
-            recognition. We reformulate EPIC-KITCHENS-100, one of the largest and most challenging egocentric 
-            action datasets, to the form of video multiple question answering (EPIC-KITCHENS-100-MQA). We show
-            that when we sample difficult incorrect answers as distractors, leading MLLMs struggle to recognize
-            the correct actions. We propose a series of methods that greatly improve the MLLMs' ability to perform
-            action recognition, achieving state-of-the-art on both the EPIC-KITCHENS-100 Challenge, as well as
-            outperforming GPT-4o by 21 points in accuracy on EPIC-KITCHENS-100-MQA. Lastly, we show improvements
-            on other action-related video benchmarks such as VideoMME, PerceptionTest and MVBench.
+Understanding human behavior requires measuring behavioral actions. Due to its complexity, behavior is best mapped onto a rich, semantic structure such as language. Emerging multimodal large language models (MLLMs) are promising candidates, but their fine-grained action understanding ability has not been fully examined. In this work, we reformulate EPIC-KITCHENS-100, one of the largest and most challenging egocentric action recognition datasets, into a MLLM benchmark (EPIC-KITCHENS-100-MQA). We demonstrate that when we sample difficult answers based on specialist models as distractors, leading MLLMs struggle to recognize the correct actions. How can we increase the performance of MLLMs? We curated a supervised finetuning dataset that includes `hard' action recognition, temporal detection, captioning, and free-form question answering to improve models' diverse action understanding capabilities. We introduce a new model called LLaVAction that adds an action token to boost models' attention on visual tokens and a two-stage pipeline to obtain structured actions. LLaVAction greatly improves the MLLMs' ability of action understanding, achieving strong improvements on both MLLM benchmarks (21 points in accuracy over GPT-4o on EPIC-KITCHENS-100-MQA) and established action recognition benchmarks, suggesting that our methods prepare MLLMs to be a promising path forward for complex action tasks. 
+Code, data, the benchmark, and models are available at https://github.com/AdaptiveMotorControlLab/LLaVAction.
               </p>
             </div>
           </div>
